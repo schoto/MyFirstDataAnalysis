@@ -113,6 +113,10 @@ We will jump directly to the answer, because it's the same solution as in the fi
 
 ![Firefox_Screenshot_2023-02-17T18-18-06 591Z](https://user-images.githubusercontent.com/69323411/219747570-70067fc2-3869-42d2-bf9b-d402f97e346c.png)
 
+He had 8,290,593,970 views
+
+![giphy](https://user-images.githubusercontent.com/69323411/219748954-b7440ae0-76ea-42f2-994c-214d843e2f1e.gif)
+
 
 
 
