@@ -39,6 +39,24 @@ And of course you can export all of data you scraped. I will download the CSV fo
 
 ![Firefox_Screenshot_2023-02-17T14-32-00 882Z](https://user-images.githubusercontent.com/69323411/219683434-9c332387-e02d-4505-8ada-efa3b6c0a149.png)
 
+When you open the downloaded CSV file, it looks like crap. There are a lot of columns we don't need, a lot of information we won't analyze.
+
+Just look at this 😔
+
+![ezgif-2-bd30aed728](https://user-images.githubusercontent.com/69323411/219696173-2e008b38-0bb3-4fe6-bdee-722af0a3a005.gif)
+
+
+Why not clean it and delete all unecessary columns?
+
+![Firefox_Screenshot_2023-02-17T15-32-02 058Z(1)](https://user-images.githubusercontent.com/69323411/219697476-3c909bcd-a69d-41c8-ba8a-31eaec901bbb.png)
+
+I think it looks better 🤌🏻
+
+We did all the cleaning stuff
+
+Now it's time to start our analysis work
+
+![thinking-math](https://user-images.githubusercontent.com/69323411/219698117-ef10a877-a0ef-4aad-92c0-5cd26060bb23.gif)
 
 
 
