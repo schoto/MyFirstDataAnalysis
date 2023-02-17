@@ -41,9 +41,9 @@ And of course you can export all of data you scraped. I will download the CSV fo
 
 ![Firefox_Screenshot_2023-02-17T14-32-00 882Z](https://user-images.githubusercontent.com/69323411/219683434-9c332387-e02d-4505-8ada-efa3b6c0a149.png)
 
-When you open the downloaded CSV file, it looks like crap. There are a lot of columns we don't need, a lot of information we won't analyze.
+When you open the downloaded CSV file, it's a total mess. There are a lot of columns we don't need, a lot of information we won't analyze.
 
-Just look at this 😔
+
 
 ![ezgif-2-bd30aed728](https://user-images.githubusercontent.com/69323411/219696173-2e008b38-0bb3-4fe6-bdee-722af0a3a005.gif)
 
@@ -68,8 +68,6 @@ Because there were rows with NULL values or with 0 values. We don't need them. S
 ![giphy](https://user-images.githubusercontent.com/69323411/219723376-a7b1e297-5269-4913-a247-3f5011ff8ec9.gif)
 
 Let's imagine that I have a very kind boss who asks me to perform some basic calculations on these rows.
-![giphy](https://user-images.githubusercontent.com/69323411/219727618-f9287e13-5032-48d4-9dc8-a81fc1e99fb7.gif)
-
 
 
 ❓He wants to know how many people added Elon's LAST 246 tweets to FAVORITES ❓
@@ -116,6 +114,52 @@ We will jump directly to the answer, because it's the same solution as in the fi
 He had 8,290,593,970 views
 
 ![giphy](https://user-images.githubusercontent.com/69323411/219748954-b7440ae0-76ea-42f2-994c-214d843e2f1e.gif)
+
+
+BIGQUERY PART
+
+
+ANSWER TO QUESTION 3 --> ❓How many times he mentioned someone in his tweets ❓
+
+For this question we will use BigQuery. We need to upload our Sheet to BigQuery, but first we need to download it from Sheets.
+
+![Firefox_Screenshot_2023-02-17T22-15-49 314Z](https://user-images.githubusercontent.com/69323411/219804851-b3e95382-2be8-42e3-8032-6fb513c25d14.png)
+
+
+Then we go to BigQuery and upload our CSV file with Elon Tweets Stats we worked on earlier
+
+
+
+
+![Firefox_Screenshot_2023-02-17T22-13-34 822Z](https://user-images.githubusercontent.com/69323411/219805013-ee95b175-c7a1-4da4-ab24-b400a09df7f9.png)
+
+
+
+![Firefox_Screenshot_2023-02-17T22-16-21 832Z](https://user-images.githubusercontent.com/69323411/219805030-5a1ee3b9-710e-4b4f-9120-0fa05c69dc15.png)
+
+
+We choose the file, on settings it will complete some fields for you. On the region put US or EU, depending on your location. Choose the dataset, if you don't have any, hit the "create new dataset" and call it as you like.
+
+When your file will be uploaded to BigQuery you'll be able to preview it. You'll see the same columns and the same information here.
+
+
+![Firefox_Screenshot_2023-02-17T22-27-39 102Z](https://user-images.githubusercontent.com/69323411/219805778-1e7b26f5-3a78-4a7e-b9fe-bc0998209483.png)
+
+
+For our question we'll need to run some SQL queries, so we will open a new tab in our BigQuery console
+
+![Firefox_Screenshot_2023-02-17T22-29-00 076Z](https://user-images.githubusercontent.com/69323411/219806652-75be7998-8ba7-4ffc-b8ec-0b105765a993.png)
+
+And here we will write this query and run it to see the results
+
+
+![Firefox_Screenshot_2023-02-17T22-34-39 581Z](https://user-images.githubusercontent.com/69323411/219808904-9d381e68-b023-45c0-be1f-3b3b2f6c1d78.png)
+
+We can see he mentioned people 8 times over 246 tweets
+
+
+![giphy](https://user-images.githubusercontent.com/69323411/219809592-32d2dd21-97c5-457f-86ed-ee1eb7986dc5.gif)
+
 
 
 
