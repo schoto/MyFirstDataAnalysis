@@ -210,4 +210,19 @@ Let's say we wanted to see some of these stats in a report or maybe we wanted to
 
 ![Firefox_Screenshot_2023-02-18T12-06-29 942Z](https://user-images.githubusercontent.com/69323411/219864879-9de3fb38-8678-4638-83cd-27ed9966da72.png)
 
+Now we will add a chart. On the top of the page click on ADD CHART and choose TIME SERIES CHART to see the evolution of FavoriteCount over the time
+
+We will have this result
+
+![Firefox_Screenshot_2023-02-18T12-12-14 087Z](https://user-images.githubusercontent.com/69323411/219865099-4f6b83f8-3efc-454d-a707-39cd4d3142e4.png)
+
+We can choose other dimensions and metrics and play with it as much as we want. You have endless combinations and results. You'll be doing your reports depending on what is required for your analysis.
+
+I think that's it.
+
+Thank you for reading me. I promise in the following projects you'll find more quality 
+
+Bye
+
+![giphy](https://user-images.githubusercontent.com/69323411/219865377-e2085f88-dab2-4105-83f1-95985876afbe.gif)
 
