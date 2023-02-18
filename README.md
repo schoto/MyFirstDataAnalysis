@@ -161,6 +161,30 @@ We can see he mentioned people 8 times over 246 tweets
 ![giphy](https://user-images.githubusercontent.com/69323411/219809592-32d2dd21-97c5-457f-86ed-ee1eb7986dc5.gif)
 
 
+ANSWER TO QUESTION 4 --> ❓How many tweets there are with a media file with a photo or image❓
+
+We will do the same step as in the third question, just the query will change a bit.
+
+
+![Firefox_Screenshot_2023-02-18T11-20-19 583Z](https://user-images.githubusercontent.com/69323411/219857490-eb810bf2-5072-4f71-aaa0-918f5f4d412e.png)
+
+
+My boss liked BigQuery and asks me to perform some other calculations.
+
+He asks "What is the average and the maximum favorite count on these 246 tweets?"
+
+And with only one query, we answered his questions
+
+
+![Firefox_Screenshot_2023-02-18T11-29-25 500Z](https://user-images.githubusercontent.com/69323411/219857876-0af08817-5df5-4aea-a60a-bc1128320688.png)
+
+
+What if we created some cool reports with these stats?
+
+LOOKER STUDIO PART
+
+
+![looker_logo_meta](https://user-images.githubusercontent.com/69323411/219859848-5729cb4d-5e65-4789-aba0-514eb433b0ed.png)
 
 
 
