@@ -188,8 +188,26 @@ LOOKER STUDIO PART
 
 
 
+We go to Looker Studio website
 
 
 
+![Firefox_Screenshot_2023-02-18T11-51-08 648Z](https://user-images.githubusercontent.com/69323411/219864116-f930cb57-8e2a-4adc-b259-6936809dd07f.png)
+
+
+![Firefox_Screenshot_2023-02-18T11-53-36 336Z](https://user-images.githubusercontent.com/69323411/219864248-57f7ede9-fbc0-4155-b977-5406fdb1a9e2.png)
+
+
+
+By default you'll see something similar to this
+
+
+![Firefox_Screenshot_2023-02-18T11-55-37 322Z](https://user-images.githubusercontent.com/69323411/219864369-5db28987-6746-40c5-85f8-fec5f8077091.png)
+
+
+Let's say we wanted to see some of these stats in a report or maybe we wanted to see it as a chart
+
+
+![Firefox_Screenshot_2023-02-18T12-06-29 942Z](https://user-images.githubusercontent.com/69323411/219864879-9de3fb38-8678-4638-83cd-27ed9966da72.png)
 
 
